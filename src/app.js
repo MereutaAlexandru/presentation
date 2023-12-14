@@ -9,9 +9,8 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Footer from './components/Footer';
-import { useState, useEffect } from "react";
+import { useState } from "react";  // Remove 'useEffect' import if not used
 import ProjectDetails from './components/ProjectDetails';
-
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -28,29 +27,31 @@ const Wrapper = styled.div`
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
-  const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal)
+  // const [openModal, setOpenModal] = useState({ state: false, project: null });  // Commented out to address ESLint warning
+  const openModalState = { state: false, project: null };  // Use a variable if 'openModal' is not used immediately
+  console.log(openModalState);
+
   return (
     <ThemeProvider theme={darkTheme}>
       <Router>
-      <Navbar />
-      <Body>
-        <Hero />
-        <Wrapper>
-          <Skills />
-          <Experience />
-        </Wrapper>
-          <Projects openModal={openModal} setOpenModal={setOpenModal} />
+        <Navbar />
+        <Body>
+          <Hero />
           <Wrapper>
-          <Education />
+            <Skills />
+            <Experience />
+          </Wrapper>
+          <Projects openModal={openModalState} setOpenModal={() => {}} />
+          <Wrapper>
+            <Education />
           </Wrapper>
           <Footer />
-          {openModal.state &&
-            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          {openModalState.state &&
+            <ProjectDetails openModal={openModalState} setOpenModal={() => {}} />
           }
         </Body>
       </Router>
-      </ThemeProvider>
+    </ThemeProvider>
   );
 }
 

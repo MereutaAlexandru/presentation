@@ -10,7 +10,7 @@ export const Bio = {
       "As a passionate Computer Scientist, I excel in developing innovative techniques and transforming them into robust and scalable solutions. My meticulous attention to detail, combined with a high-energy approach, underscores my strong planning and organizational skills. I am enthusiastic about continuous learning, particularly through hands-on projects under expert guidance.",
     github: "https://github.com/MereutaAlexandru",
     resume:
-      "https://drive.google.com/file/d/1AnhCmRO7W0AHYtV3KmoU6Wqlj84-XPzd/view?usp=drive_link",
+      "https://drive.google.com/file/d/1IiOvO7rIXkTVHebCLBsWKuGj-fBoxUk2/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/alexandru-ionut-mereuta-b30429279/",
     insta: "https://www.instagram.com/alex_mereuta/",
     facebook: "https://www.facebook.com/alex.mereuta.75",
@@ -125,11 +125,23 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/EY_logo_2019.svg/69px-EY_logo_2019.svg.png",
+      role: "RPA Consultant Internship",
+      company: "Ernst & Young",
+      date: " 2022 February - May",
+      desc: "During my internship at Ernst & Young, I actively engaged in meetings with company representatives, gaining insights into the responsibilities of both Business Analysts and Technicians.",
+      skills: [
+        "UiPath",
+        "Blue Prism",
+      ],
+    },
+    {
+      id: 1,
       img: "https://media.licdn.com/dms/image/C560BAQG1vEeAsco6UQ/company-logo_200_200/0/1519912354526?e=1705536000&v=beta&t=GuEiYkeJ_Ma1WrKD7uO-WU82VVKnsd5GnDgtwh0hamQ",
       role: "Software Developer Intern",
       company: "Kepler Management Systems SRL",
       date: " 2021 February - May",
-      desc: "Design and implementation of customized solutions using the Dynamics NAV and Dynamics 365 Business Central systems.",
+      desc: "I delved into Microsoft Dynamics Navision, actively developing systems for customer relationship management and enterprise resource planning of the customers. At the same time, I improved my communication skills with clients, thus understanding their wishes for the final product.",
       skills: [
         ".NET Framework",
         "C#",
@@ -144,7 +156,7 @@ export const Bio = {
       id: 0,
       img: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtIzJZbJ8orQ3HniiwRc_apGA_gjSNNhNTI1uId83Vf7QVNG7A",
       school: "Faculty of Economic Informatics, Bucharest",
-      date: "2020 - 2024",
+      date: "2021 - 2024",
       grade: "--",
       desc: "I am currently enrolled at university, I have been fortunate to participate in a diverse range of projects. These opportunities have enabled me to explore various areas of technology and data analysis, ultimately leading to valuable experiences and the acquisition of knowledge.",
       degree: "Bachelor of Economic and Computer Science",
@@ -168,7 +180,7 @@ export const Bio = {
     },
     {
       id: 3,
-      img: "https://www.isf.ro/sites/default/files/inline-images/Logo%20ECDL.jpg",
+      img: "https://media.licdn.com/dms/image/C560BAQFQW2Ri_zHydw/company-logo_200_200/0/1630634381666?e=2147483647&v=beta&t=v6bg6vsnzYZVa2Ea7Hbeos9DMHNQw0GyYHll8QASq-s",
       school: "Alexandru Ioan Cuza Theoretical High School",
       date: "2016 - 2020",
       grade: "9.3%",
@@ -178,6 +190,21 @@ export const Bio = {
   ];
   
   export const projects = [
+    {
+      id: 0,
+      title: "Coindom",
+      date: "2023",
+      description:
+        "A cryptocurrency application that enables users to access real-time information about various cryptocurrencies. Leveraging React for dynamic and responsive user interfaces, I utilized SCSS to enhance styling and employed live APIs to ensure users receive up-to-date data on their selected cryptocurrencies.",
+      image:
+        "https://github.com/MereutaAlexandru/coindom/blob/main/Captur%C4%83%20de%20ecran%202023-12-14%20102844.png?raw=true",
+      tags: [
+        ["HTML", "CSS","JS","REACT"],,
+      ],
+      category: "web app",
+      github: "https://github.com/MereutaAlexandru/coindom",
+      webapp: "https://buy2coin.netlify.app/"
+    },
     {
       id: 0,
       title: "Snake game",

@@ -9,7 +9,6 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Footer from './components/Footer';
-import { useState } from "react";  // Remove 'useEffect' import if not used
 import ProjectDetails from './components/ProjectDetails';
 
 const Body = styled.div`
@@ -26,9 +25,7 @@ const Wrapper = styled.div`
 `;
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
-  // const [openModal, setOpenModal] = useState({ state: false, project: null });  // Commented out to address ESLint warning
-  const openModalState = { state: false, project: null };  // Use a variable if 'openModal' is not used immediately
+  const openModalState = { state: false, project: null };
   console.log(openModalState);
 
   return (

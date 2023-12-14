@@ -1,4 +1,4 @@
-import './App.css';
+import './app.css';
 import styled, { ThemeProvider } from 'styled-components';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { darkTheme } from "./utils/Theme";

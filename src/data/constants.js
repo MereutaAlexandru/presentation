@@ -199,7 +199,7 @@ export const Bio = {
       image:
         "https://github.com/MereutaAlexandru/coindom/blob/main/Captur%C4%83%20de%20ecran%202023-12-14%20102844.png?raw=true",
       tags: [
-        ["HTML", "CSS","JS","REACT"],,
+        ["HTML", "CSS", "JS", "REACT"],
       ],
       category: "web app",
       github: "https://github.com/MereutaAlexandru/coindom",

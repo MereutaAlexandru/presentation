@@ -3,14 +3,14 @@ export const Bio = {
     roles: [
       "Rookie",
       "Full Stack Developer",
-      "Android Developer",
+      "Software Developer",
       "Programmer",
     ],
     description:
       "As a passionate Computer Scientist, I excel in developing innovative techniques and transforming them into robust and scalable solutions. My meticulous attention to detail, combined with a high-energy approach, underscores my strong planning and organizational skills. I am enthusiastic about continuous learning, particularly through hands-on projects under expert guidance.",
     github: "https://github.com/MereutaAlexandru",
     resume:
-      "https://drive.google.com/file/d/1IiOvO7rIXkTVHebCLBsWKuGj-fBoxUk2/view?usp=drive_link",
+      "https://drive.google.com/file/d/1cB7sVvPaG5iRugvT6e8Mk8ffIowRJjbS/view?usp=shar",
     linkedin: "https://www.linkedin.com/in/alexandru-ionut-mereuta-b30429279/",
     insta: "https://www.instagram.com/alex_mereuta/",
     facebook: "https://www.facebook.com/alex.mereuta.75",
@@ -128,7 +128,7 @@ export const Bio = {
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/EY_logo_2019.svg/69px-EY_logo_2019.svg.png",
       role: "RPA Consultant Internship",
       company: "Ernst & Young",
-      date: " 2022 February - May",
+      date: " 2023 February - May",
       desc: "During my internship at Ernst & Young, I actively engaged in meetings with company representatives, gaining insights into the responsibilities of both Business Analysts and Technicians.",
       skills: [
         "UiPath",
@@ -140,7 +140,7 @@ export const Bio = {
       img: "https://media.licdn.com/dms/image/C560BAQG1vEeAsco6UQ/company-logo_200_200/0/1519912354526?e=1705536000&v=beta&t=GuEiYkeJ_Ma1WrKD7uO-WU82VVKnsd5GnDgtwh0hamQ",
       role: "Software Developer Intern",
       company: "Kepler Management Systems SRL",
-      date: " 2021 February - May",
+      date: " 2022 February - June",
       desc: "I delved into Microsoft Dynamics Navision, actively developing systems for customer relationship management and enterprise resource planning of the customers. At the same time, I improved my communication skills with clients, thus understanding their wishes for the final product.",
       skills: [
         ".NET Framework",

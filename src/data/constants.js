@@ -172,20 +172,20 @@ export const Bio = {
     },
     {
       id: 2,
-      img: "https://www.isf.ro/sites/default/files/inline-images/Logo%20ECDL.jpg",
-      school: "ECDL Romania",
-      date: "2018",
-      grade: "92.3%",
-      desc: "Accreditation of Office 365 knowledge with European Computer Driving License.",
-    },
-    {
-      id: 3,
       img: "https://media.licdn.com/dms/image/C560BAQFQW2Ri_zHydw/company-logo_200_200/0/1630634381666?e=2147483647&v=beta&t=v6bg6vsnzYZVa2Ea7Hbeos9DMHNQw0GyYHll8QASq-s",
       school: "Alexandru Ioan Cuza Theoretical High School",
       date: "2016 - 2020",
       grade: "9.3%",
       desc: "",
       degree: "Profile: Mathematical - Informatics",
+    },
+      {
+      id: 3,
+      img: "https://www.isf.ro/sites/default/files/inline-images/Logo%20ECDL.jpg",
+      school: "ECDL Romania",
+      date: "2018",
+      grade: "92.3%",
+      desc: "Accreditation of Office 365 knowledge with European Computer Driving License.",
     },
   ];
   

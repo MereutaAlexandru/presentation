@@ -12,7 +12,7 @@ export const Bio = {
     resume:
       "https://drive.google.com/file/d/1cB7sVvPaG5iRugvT6e8Mk8ffIowRJjbS/view?usp=shar",
     linkedin: "https://www.linkedin.com/in/alexandru-ionut-mereuta-b30429279/",
-    insta: "https://www.instagram.com/alex_mereuta/",
+    insta: "https://www.instagram.com/_alexmereuta/",
     facebook: "https://www.facebook.com/alex.mereuta.75",
   };
   

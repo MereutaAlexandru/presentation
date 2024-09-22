@@ -153,7 +153,7 @@ export const Bio = {
   
   export const education = [
     {
-      id: 0,
+      id: 1,
       img: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtIzJZbJ8orQ3HniiwRc_apGA_gjSNNhNTI1uId83Vf7QVNG7A",
       school: "Faculty of Economic Informatics, Bucharest",
       date: "2021 - 2024",
@@ -162,7 +162,7 @@ export const Bio = {
       degree: "Bachelor of Economic and Computer Science",
     },
     {
-      id: 1,
+      id: 2,
       img: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTYNfsPNPP0HxcOlyoMXAjA3XHLwM7b6wmM8I6Z-0VMQp9S6eNH",
       school: "Oracle PL/SQL",
       date: "2021 - 2022",
@@ -171,7 +171,7 @@ export const Bio = {
       degree: "Database Programming with PL/SQL",
     },
     {
-      id: 2,
+      id: 3,
       img: "https://media.licdn.com/dms/image/C560BAQFQW2Ri_zHydw/company-logo_200_200/0/1630634381666?e=2147483647&v=beta&t=v6bg6vsnzYZVa2Ea7Hbeos9DMHNQw0GyYHll8QASq-s",
       school: "Alexandru Ioan Cuza Theoretical High School",
       date: "2016 - 2020",
@@ -180,42 +180,7 @@ export const Bio = {
       degree: "Profile: Mathematical - Informatics",
     },
       {
-      id: 3,
-      img: "https://www.isf.ro/sites/default/files/inline-images/Logo%20ECDL.jpg",
-      school: "ECDL Romania",
-      date: "2018",
-      grade: "92.3%",
-      desc: "Accreditation of Office 365 knowledge with European Computer Driving License.",
-    },
-      {
-      id: 0,
-      img: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtIzJZbJ8orQ3HniiwRc_apGA_gjSNNhNTI1uId83Vf7QVNG7A",
-      school: "Faculty of Economic Informatics, Bucharest",
-      date: "2021 - 2024",
-      grade: "--",
-      desc: "I am currently enrolled at university, I have been fortunate to participate in a diverse range of projects. These opportunities have enabled me to explore various areas of technology and data analysis, ultimately leading to valuable experiences and the acquisition of knowledge.",
-      degree: "Bachelor of Economic and Computer Science",
-    },
-    {
-      id: 1,
-      img: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTYNfsPNPP0HxcOlyoMXAjA3XHLwM7b6wmM8I6Z-0VMQp9S6eNH",
-      school: "Oracle PL/SQL",
-      date: "2021 - 2022",
-      grade: "88.2%",
-      desc: "Oracle’s procedural extension language for SQL and the Oracle relational database where we explored the characteristics of PL/SQL and how it is used to extend and automate SQL to administer the Oracle database.",
-      degree: "Database Programming with PL/SQL",
-    },
-    {
-      id: 2,
-      img: "https://media.licdn.com/dms/image/C560BAQFQW2Ri_zHydw/company-logo_200_200/0/1630634381666?e=2147483647&v=beta&t=v6bg6vsnzYZVa2Ea7Hbeos9DMHNQw0GyYHll8QASq-s",
-      school: "Alexandru Ioan Cuza Theoretical High School",
-      date: "2016 - 2020",
-      grade: "9.3%",
-      desc: "",
-      degree: "Profile: Mathematical - Informatics",
-    },
-      {
-      id: 3,
+      id: 4,
       img: "https://www.isf.ro/sites/default/files/inline-images/Logo%20ECDL.jpg",
       school: "ECDL Romania",
       date: "2018",

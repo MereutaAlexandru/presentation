@@ -11,7 +11,6 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Footer from './components/Footer';
 import ProjectDetails from './components/ProjectDetails';
-import { useState } from "react";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};

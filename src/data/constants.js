@@ -123,8 +123,22 @@ export const Bio = {
   ];
   
   export const experiences = [
-    {
+      {
       id: 0,
+      img: "https://media.licdn.com/dms/image/C560BAQG1vEeAsco6UQ/company-logo_200_200/0/1519912354526?e=1705536000&v=beta&t=GuEiYkeJ_Ma1WrKD7uO-WU82VVKnsd5GnDgtwh0hamQ",
+      role: "Software Developer ",
+      company: "Kepler Management Systems SRL",
+      date: " 2024 June - August",
+      desc: "I delved into Microsoft Dynamics Navision, actively developing systems for customer relationship management and enterprise resource planning of the customers. At the same time, I improved my communication skills with clients, thus understanding their wishes for the final product.",
+      skills: [
+        ".NET Framework",
+        "C#",
+        "JavaScript",
+        "SQL",
+      ],
+    },
+      {
+      id: 1,
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/EY_logo_2019.svg/69px-EY_logo_2019.svg.png",
       role: "RPA Consultant Internship",
       company: "Ernst & Young",
@@ -135,20 +149,6 @@ export const Bio = {
         "Blue Prism",
       ],
     },
-    {
-      id: 1,
-      img: "https://media.licdn.com/dms/image/C560BAQG1vEeAsco6UQ/company-logo_200_200/0/1519912354526?e=1705536000&v=beta&t=GuEiYkeJ_Ma1WrKD7uO-WU82VVKnsd5GnDgtwh0hamQ",
-      role: "Software Developer Intern",
-      company: "Kepler Management Systems SRL",
-      date: " 2022 February - June",
-      desc: "I delved into Microsoft Dynamics Navision, actively developing systems for customer relationship management and enterprise resource planning of the customers. At the same time, I improved my communication skills with clients, thus understanding their wishes for the final product.",
-      skills: [
-        ".NET Framework",
-        "C#",
-        "JavaScript",
-        "SQL",
-      ],
-    },
   ];
   
   export const education = [
@@ -157,8 +157,8 @@ export const Bio = {
       img: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtIzJZbJ8orQ3HniiwRc_apGA_gjSNNhNTI1uId83Vf7QVNG7A",
       school: "Faculty of Economic Informatics, Bucharest",
       date: "2021 - 2024",
-      grade: "--",
-      desc: "I am currently enrolled at university, I have been fortunate to participate in a diverse range of projects. These opportunities have enabled me to explore various areas of technology and data analysis, ultimately leading to valuable experiences and the acquisition of knowledge.",
+      grade: "9",
+      desc: "Completed coursework in full-stack development, database systems, and software architecture. These opportunities have enabled me to explore various areas of technology and data analysis, ultimately leading to valuable experiences and the acquisition of knowledge.",
       degree: "Bachelor of Economic and Computer Science",
     },
     {

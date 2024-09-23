@@ -10,7 +10,7 @@ export const Bio = {
       "As a passionate Computer Scientist, I excel in developing innovative techniques and transforming them into robust and scalable solutions. My meticulous attention to detail, combined with a high-energy approach, underscores my strong planning and organizational skills. I am enthusiastic about continuous learning, particularly through hands-on projects under expert guidance.",
     github: "https://github.com/MereutaAlexandru",
     resume:
-      "https://drive.google.com/file/d/1cB7sVvPaG5iRugvT6e8Mk8ffIowRJjbS/view?usp=shar",
+      "https://drive.google.com/file/d/1U75_lg_CqwBe-YBt2x2uIPsG7HvpqPGP/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/alexandru-ionut-mereuta-b30429279/",
     insta: "https://www.instagram.com/_alexmereuta/",
     facebook: "https://www.facebook.com/alex.mereuta.75",

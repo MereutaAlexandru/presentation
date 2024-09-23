@@ -163,16 +163,19 @@ export const Bio = {
   export const experiences = [
       {
       id: 0,
-      img: "https://media.licdn.com/dms/image/C560BAQG1vEeAsco6UQ/company-logo_200_200/0/1519912354526?e=1705536000&v=beta&t=GuEiYkeJ_Ma1WrKD7uO-WU82VVKnsd5GnDgtwh0hamQ",
+      img: "https://kepler-ms.ro/wp-content/uploads/2016/10/Logo-KEPLER-Mediu-800x800.png",
       role: "Software Developer ",
       company: "Kepler Management Systems SRL",
       date: " 2024 June - August",
-      desc: "I delved into Microsoft Dynamics Navision, actively developing systems for customer relationship management and enterprise resource planning of the customers. At the same time, I improved my communication skills with clients, thus understanding their wishes for the final product.",
+      desc: "Developed systems using Microsoft Dynamics Navision, enhancing CRM and ERP capabilities, improving client data management efficiency. Strengthened communication skills through regular client interactions, aligning software functionality with client requirements.",
       skills: [
         ".NET Framework",
         "C#",
         "JavaScript",
         "SQL",
+        "CRM & ERP systems",
+        "Client Communication",
+        "Requirements Gathering",
       ],
     },
       {
@@ -185,6 +188,10 @@ export const Bio = {
       skills: [
         "UiPath",
         "Blue Prism",
+        "Business Process Automation",
+        "RPA Development",
+        "Technical Documentation",
+        "Cross-functional Collaboration",
       ],
     },
   ];
@@ -228,25 +235,34 @@ export const Bio = {
   ];
   
   export const projects = [
-    {
+     {
       id: 0,
-      title: "Coindom",
+      title: "Book store",
+      date: "2024",
+      description:
+        "Create a user-friendly browsing experience, real-time pricing updates, secure payments, and seamless checkout.",
+      image:
+        "https://github.com/MereutaAlexandru/Bookstore/blob/main/Captur%C4%83%20de%20ecran%202024-09-23%20173828.png?raw=true",
+      tags: ["Talwin", "CSS", "Redux", "React"],
+      category: "web app",
+      github: "https://github.com/MereutaAlexandru/Bookstore/tree/main",
+    },
+      {
+      id: 1,
+      title: "Supermarket billing system",
       date: "2023",
       description:
-        "A cryptocurrency application that enables users to access real-time information about various cryptocurrencies. Leveraging React for dynamic and responsive user interfaces, I utilized SCSS to enhance styling and employed live APIs to ensure users receive up-to-date data on their selected cryptocurrencies.",
+        " A Supermarket Billing System in C++ is a software application designed to manage and streamline the billing process for a supermarket. It offers an efficient and user-friendly solution for store cashiers and customers to generate and track invoices.",
       image:
-        "https://github.com/MereutaAlexandru/coindom/blob/main/Captur%C4%83%20de%20ecran%202023-12-14%20102844.png?raw=true",
-      tags: [
-        ["HTML", "CSS", "JS", "REACT"],
-      ],
-      category: "web app",
-      github: "https://github.com/MereutaAlexandru/coindom",
-      webapp: "https://buy2coin.netlify.app/"
+        "https://github.com/MereutaAlexandru/Supermarket-billing-system/blob/main/supermarket.png?raw=true",
+      tags: ["HTML", "CSS"],
+      category: "desktop app",
+      github: "https://github.com/MereutaAlexandru/Supermarket-billing-system",
     },
-    {
-      id: 0,
+      {
+      id: 2,
       title: "Snake game",
-      date: "2022",
+      date: "2023",
       description:
         "The Classic Snake Game is a timeless and entertaining web-based game that challenges players to control a growing snake as it navigates around the screen, collecting food and avoiding collisions with itself and the screen boundaries. This game is developed using HTML, CSS, and JavaScript.",
       image:
@@ -257,25 +273,10 @@ export const Bio = {
       category: "desktop app",
       github: "https://github.com/MereutaAlexandru/Snake_game_var1",
     },
-   
     {
-      id: 1,
-      title: "Todo Web App",
-      date: "Jun 2021",
-      description:
-        " The HTML and CSS-based To-Do Web Application is a sleek and efficient task manager that ensures you never miss an important task, even if you close the browser tab.",
-      image:
-        "https://github.com/MereutaAlexandru/tic-tac-toe/blob/main/Captur%C4%83%20de%20ecran%202023-10-17%20204924.png?raw=true",
-      tags: ["HTML", "CSS"],
-      category: "web app",
-      github: "https://github.com/MereutaAlexandru/To-Do-List",
-      webapp: "https://mereutaalexandru.github.io/To-Do-List/",
-    },
-
-    {
-      id: 2,
+      id: 3,
       title: "Tic-tac-toe",
-      date: "Jun 2022",
+      date: "Jun 2023",
       description:
         " A HTML, CSS, and JavaScript-based Tic-Tac-Toe game is a digital adaptation of the classic paper-and-pencil game. It offers a clean, user-friendly interface and brings the timeless two-player competition to your web browser.",
       image:
@@ -285,19 +286,19 @@ export const Bio = {
       github: "https://github.com/MereutaAlexandru/To-Do-List",
       webapp: "https://mereutaalexandru.github.io/tic-tac-toe/",
     },
-    {
-      id: 3,
-      title: "Supermarket billing system",
-      date: "2022",
+       {
+      id: 4,
+      title: "Todo Web App",
+      date: "Jun 2022",
       description:
-        " A Supermarket Billing System in C++ is a software application designed to manage and streamline the billing process for a supermarket. It offers an efficient and user-friendly solution for store cashiers and customers to generate and track invoices.",
+        " The HTML and CSS-based To-Do Web Application is a sleek and efficient task manager that ensures you never miss an important task, even if you close the browser tab.",
       image:
-        "https://github.com/MereutaAlexandru/Supermarket-billing-system/blob/main/supermarket.png?raw=true",
+        "https://github.com/MereutaAlexandru/tic-tac-toe/blob/main/Captur%C4%83%20de%20ecran%202023-10-17%20204924.png?raw=true",
       tags: ["HTML", "CSS"],
-      category: "desktop app",
-      github: "https://github.com/MereutaAlexandru/Supermarket-billing-system",
-    },
-   
+      category: "web app",
+      github: "https://github.com/MereutaAlexandru/To-Do-List",
+      webapp: "https://mereutaalexandru.github.io/To-Do-List/",
+    },  
   ];
   
  

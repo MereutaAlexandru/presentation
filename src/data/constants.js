@@ -48,21 +48,34 @@ export const Bio = {
           name: "Node Js",
           image: "https://nodejs.org/static/images/logo.svg",
         },
-        
         {
-          name: "C#",
+          name: "Web API's",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN8oh5NgOi5wriNS4EofJ9t6xrd7vWJvyZYg&s",
+        },
+           {
+          name: "SQL",
           image:
-            "https://cdn.worldvectorlogo.com/logos/c--4.svg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sql_data_base_with_logo.png/640px-Sql_data_base_with_logo.png",
+        },
+           {
+          name: "MySQL",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        },
+        {
+          name: "C",
+          image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS25oYJlp2wL_GAT2FOKBaOlCt1fbn56-hXDg&s",
         },
         {
           name: "C++",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png",
         },
-        {
-          name: "MySQL",
+          {
+          name: "C#",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+            "https://cdn.worldvectorlogo.com/logos/c--4.svg",
         },
            {
           name: "Java",
@@ -85,24 +98,19 @@ export const Bio = {
             "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
         },
         {
-          name: "GitHub",
+          name: "GitHub/Gitlab",
           image:
             "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         },
         {
-          name: "Netlify",
+          name: "CI/CD pipelines",
           image:
-            "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+            "https://e7.pngegg.com/pngimages/302/885/png-clipart-ci-cd-continuous-integration-continuous-delivery-computer-software-software-testing-automation-testing-blue-text.png",
         },
         {
-          name: "VS Code",
+          name: "Agile/SCRUM",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-        },
-        {
-          name: "Postman",
-          image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+            "https://www.svgrepo.com/show/372946/scrum.svg",
         },
       ],
     },
@@ -110,29 +118,44 @@ export const Bio = {
       title: "Others",
       skills: [
         {
-          name: "Git",
+          name: "Linux/Unix systems",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            "https://www.svgrepo.com/show/7095/linux.svg",
         },
         {
-          name: "GitHub",
+          name: "Networking Protocols (TCP/IP, DNS)",
           image:
-            "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+            "https://www.ccnahub.com/wp-content/uploads/2013/10/TCPIPRN.png",
         },
         {
-          name: "Netlify",
+          name: "Multi-threading",
           image:
-            "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+            "https://static.thenounproject.com/png/5418791-200.png",
         },
         {
-          name: "VS Code",
+          name: "Software Testing",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+            "https://cdn-icons-png.flaticon.com/512/11676/11676391.png",
         },
         {
-          name: "Postman",
+          name: "AI/ML",
           image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+            "https://cdn-icons-png.freepik.com/512/9887/9887948.png",
+        },
+          {
+          name: "Object-Oriented Design",
+          image:
+            "https://static.thenounproject.com/png/5057309-200.png",
+        },
+          {
+          name: "Design Patterns",
+          image:
+            "",
+        },
+          {
+          name: "Cybersecurity",
+          image:
+            "https://cdn-icons-png.flaticon.com/512/2974/2974524.png",
         },
       ],
     },

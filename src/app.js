@@ -10,6 +10,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Footer from './components/Footer';
 import ProjectDetails from './components/ProjectDetails';
+import { useState } from 'react';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -25,7 +26,9 @@ const Wrapper = styled.div`
 `;
 
 function App() {
-  const openModalState = { state: false, project: null };
+  
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
+  
   console.log(openModalState);
 
   return (
@@ -38,14 +41,14 @@ function App() {
             <Skills />
             <Experience />
           </Wrapper>
-          <Projects openModal={openModalState} setOpenModal={() => {}} />
+            <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
           </Wrapper>
           <Footer />
-          {openModalState.state &&
-            <ProjectDetails openModal={openModalState} setOpenModal={() => {}} />
-          }
+          {openModal.state &&
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+            }
         </Body>
       </Router>
     </ThemeProvider>

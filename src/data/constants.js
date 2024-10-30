@@ -183,7 +183,7 @@ export const Bio = {
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/EY_logo_2019.svg/69px-EY_logo_2019.svg.png",
       role: "RPA Consultant Internship",
       company: "Ernst & Young",
-      date: " 2023 February - May",
+      date: " 2024 February - May",
       desc: "During my internship at Ernst & Young, I actively engaged in meetings with company representatives, gaining insights into the responsibilities of both Business Analysts and Technicians.",
       skills: [
         "UiPath",
@@ -201,7 +201,7 @@ export const Bio = {
       id: 1,
       img: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtIzJZbJ8orQ3HniiwRc_apGA_gjSNNhNTI1uId83Vf7QVNG7A",
       school: "Faculty of Economic Informatics, Bucharest",
-      date: "2021 - 2024",
+      date: "2025",
       grade: "9",
       desc: "Completed coursework in full-stack development, database systems, and software architecture. These opportunities have enabled me to explore various areas of technology and data analysis, ultimately leading to valuable experiences and the acquisition of knowledge.",
       degree: "Bachelor of Economic and Computer Science",
